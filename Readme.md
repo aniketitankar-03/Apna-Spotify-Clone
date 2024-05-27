@@ -35,11 +35,11 @@ Welcome to my **Spotify Clone Music App** project! This application is designed 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-github-username/spotify-clone.git
+   git clone https://github.com/aniketitankar-03/Apna-Spotify-Clone.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd spotify-clone
+   cd apna-spotify-clone
    ```
 3. **Open `index.html` in your preferred browser.**
 
