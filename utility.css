@@ -1,0 +1,327 @@
+.border{
+    border: 2px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: #000000;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+.rounded-full{
+    border-radius: 50%;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 15px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.scale:hover{
+    transition: all 0.1s ease;
+    transform: scale(1.08);
+}
+
+
+
+/* Customise scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #111;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+    border: 3px solid #111;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+  
+* > title{
+    all: unset;
+    outline: none;
+    border: none;
+}
+
+#range{
+    background: black;
+    filter: invert(1);
+    
+}
+
+
+  /* Styling the range input */
+/* #range {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px; */
+    /* background: transparent; Use a transparent background to blend with the dark background */
+    /* outline: none; 
+} */
+  
+  /* Styling the track */
+#range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+/* #range::-webkit-slider-runnable-track:hover{
+    background: #1FDF64;
+} */
+  
+  /* Styling the thumb */
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    /* background: #fff; Set the color of the thumb */
+    /* border-radius: 50%; Rounded thumb */
+    /* border: 2px solid #444; Border to make the thumb visible */
+    transform: translateY(-5.5px);
+    
+}
+  
+
+
+   /* mobile view */
+   @media (max-width:1200px) {
+        .boxContain{
+            width: 50%;
+        }
+
+        .left{
+            background-color: black;
+            position: absolute;
+            left: -120%;
+            transition: all 1s ease;
+            z-index: 2;
+            width: 370px;
+        }
+
+        .songList ul::-webkit-scrollbar{
+            display: none;
+        }
+
+        .closebtn{
+            display: block;
+        }
+
+        .hambgr{
+            display: block;
+        }
+
+        .songinfo{
+            font-size: 13px
+        }
+
+        .abovebar div{
+            width: 30%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .abovebar div:first-child{
+            width: 30%;
+            display: flex;
+            justify-content: start;
+        }
+
+        .right{
+            width: 100%;
+            height: 98.5vh;
+            margin: 7px;
+            margin-top: 0;
+        }
+
+        .header{
+            padding: 10px;
+        }
+
+        .login{
+            padding: 10px 20px;
+        }
+
+        .playbtn{
+            top: 49%;
+        }
+
+        .seekbar{
+            width: 89%;
+        }
+   }
+
+   @media (max-width:600px) {
+    .pageHead{
+        font-size: 24px;
+    }
+
+    .boxContain{
+        width: 70%;
+    }
+
+    .card{
+        width: 170px;
+    }
+    .playlist-title{
+        font-size: 1.2rem;
+    }
+
+    .seekbar{
+        width: 83%;
+    }
+    .volume{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    #range{
+        width: 70px;
+        height: 5px;
+        cursor: pointer;
+    }
+
+   }
+
+   @media (max-width:430px) {
+    .closePage{
+        display: none;
+    }
+
+    .boxContain{
+        width: 90%;
+    }
+
+    .container{
+        overflow-y: hidden;
+    }
+
+    .songList ul{
+        height: 55vh;
+    }
+
+    .left{
+        width: 90%;
+    }
+
+    .nav .btn{
+        display: none;
+    }
+
+    .login , .signup{
+        font-size: 0.9rem;
+    }
+
+    .spotifyPlaylists{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .spotifyPlaylists h1{
+        padding-left: 1rem;
+    }
+
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .cardContainer{
+        max-height: 81vh;
+        justify-content: center;
+        gap: 0;
+        padding: 10px;
+    }
+
+    .card{
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .cardContainer::-webkit-scrollbar{
+        display: none;
+    }
+
+    .playbtn{
+        top: 68%;
+        width: 60px;
+        height: 60px;
+    }
+
+    .playbtn img{
+        width: 28px;
+    }
+
+    .abovebar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.7rem;
+    }
+
+    .abovebar div{
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+
+    .abovebar div:first-child{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+        
+    }
+
+
+    .seekbar{
+        width: 75%;
+    }
+
+}
