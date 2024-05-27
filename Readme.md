@@ -15,7 +15,7 @@ Welcome to my **Spotify Clone Music App** project! This application is designed 
 
 ## 📸 Screenshots
 
-
+![Home Page UI](assets/UI.png)
 
 ## 📂 Project Structure
 
