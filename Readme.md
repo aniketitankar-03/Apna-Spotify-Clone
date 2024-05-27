@@ -60,5 +60,3 @@ For any inquiries or feedback, please reach out to me at aniketitankar9281@gmail
 Thank you for visiting the project. Enjoy the music! 🎶
 
 ---
-
-Replace placeholders like `your-github-username`, `your-live-project-link`, and `your-email@example.com` with your actual information. Additionally, update the screenshot links and any additional libraries if used.
