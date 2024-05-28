@@ -173,7 +173,7 @@ async function displayAlbums(){
 async function main(){
     //Get the list of all the songs                              
 
-    await getSongs("songs/ncs");
+    await getSongs("songs/Annnu");
 
     // Display all albums on the page
     displayAlbums();
